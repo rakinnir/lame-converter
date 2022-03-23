@@ -1,0 +1,56 @@
+html,
+body {
+  text-align: center;
+  margin: 0 auto;
+}
+/* input area */
+.gradient {
+  margin: 0 auto;
+  width: 550px;
+  height: 260px;
+  background: linear-gradient(246.26deg, #585dfe 0%, #fb3796 100%);
+}
+.heading {
+  padding-top: 20px;
+  margin: auto;
+  width: 448.4px;
+  height: 38px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 38px;
+  letter-spacing: -0.05em;
+  color: #ffffff;
+}
+#input {
+  margin: 20px auto 10px auto;
+  width: 150px;
+  height: 30px;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 24px;
+  color: black;
+}
+#btn {
+  margin: 20px 0;
+  width: 100px;
+  height: 30px;
+  font-weight: 500;
+  font-family: "Inter";
+  font-style: normal;
+}
+
+/* result area  */
+#result {
+  margin: 0 auto;
+  width: 550px;
+  height: 330px;
+  background: #1f2937;
+  color: white;
+  padding-top: 40px;
+}
+h4 {
+  cursor: pointer;
+  margin: 0 auto 30px auto;
+}

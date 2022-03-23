@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Conversion</title>
+  </head>
+  <body>
+    <!-- input area  -->
+    <div class="gradient">
+      <h1 class="heading">Metric/imperical unit conversion</h1>
+      <br />
+      <input type="text" id="input" placeholder="input your value" />
+      <br />
+      <button id="btn" onclick="pressed()">Convert</button>
+    </div>
+    <!-- result area  -->
+    <div id="result">
+      <h4 id="metercalc" onclick="meterToFoot()">Meter to foot</h4>
+      <h4 id="metercalc1" onclick="footToMeter()">Foot to meter</h4>
+      <h4 id="litrecalc" onclick="litreToGallon()">Litre to gallon</h4>
+      <h4 id="litrecalc1" onclick="gallonToLitre()">Gallon to litre</h4>
+      <h4 id="kgcalc" onclick="kgToPound()">Kg to pound</h4>
+      <h4 id="kgcalc1" onclick="poundToKg()">Pound to kg</h4>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
